@@ -1,0 +1,28 @@
+C:\Users\HP>mkdir my-project
+
+C:\Users\HP>cd my-project
+
+C:\Users\HP\my-project>echo ^<h1^>Hello GitHub^</h1^> > index.html
+
+C:\Users\HP\my-project>git init
+Initialized empty Git repository in C:/Users/HP/my-project/.git/
+
+C:\Users\HP\my-project>git add .
+
+C:\Users\HP\my-project>git commit -m "First Commit"
+[main (root-commit) fed2713] First Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+C:\Users\HP\my-project>git remote add origin https://github.com/Muskanpathan31/my-project.git
+
+C:\Users\HP\my-project>git branch -M main
+
+C:\Users\HP\my-project>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 239 bytes | 59.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Muskanpathan31/my-project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
